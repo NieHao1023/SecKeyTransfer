@@ -1,0 +1,21 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.48.130”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  ServerOP.cpp
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(176,12): warning : conversion to ‘unsigned int’ from ‘time_t {aka long int}’ may alter its value [-Wconversion]
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(176,12): warning :   srand(time(NULL));
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(176,12): warning :         ~~~~^~~~~~
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(187,26): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(187,26): warning :     randStr.append(1, 'a' + rand() % 26);
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(187,26): warning :                       ~~~~^~~~~~~~~~~~~
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(190,26): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(190,26): warning :     randStr.append(1, 'A' + rand() % 26);
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(190,26): warning :                       ~~~~^~~~~~~~~~~~~
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(193,26): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(193,26): warning :     randStr.append(1, '0' + rand() % 10);
+F:\workspace\ServerSecKey\ServerSecKey\ServerOP.cpp(193,26): warning :                       ~~~~^~~~~~~~~~~~~
+  正在链接对象
+  ServerSecKey.vcxproj -> F:\workspace\ServerSecKey\ServerSecKey\bin\x64\Debug\ServerSecKey.out

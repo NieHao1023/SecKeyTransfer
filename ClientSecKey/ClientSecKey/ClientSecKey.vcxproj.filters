@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ClientOP.h" />
+    <ClInclude Include="Codec.h" />
+    <ClInclude Include="CodecFactory.h" />
+    <ClInclude Include="Message.pb.h" />
+    <ClInclude Include="RequestCodec.h" />
+    <ClInclude Include="RequestFactory.h" />
+    <ClInclude Include="RespondCodec.h" />
+    <ClInclude Include="RespondFactory.h" />
+    <ClInclude Include="Hash.h" />
+    <ClInclude Include="RsaCrypto.h" />
+    <ClInclude Include="TcpSocket.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientOP.cpp" />
+    <ClCompile Include="Codec.cpp" />
+    <ClCompile Include="CodecFactory.cpp" />
+    <ClCompile Include="Message.pb.cc" />
+    <ClCompile Include="RequestFactory.cpp" />
+    <ClCompile Include="RequsetCodec.cpp" />
+    <ClCompile Include="RespondCodec.cpp" />
+    <ClCompile Include="RespondFactory.cpp" />
+    <ClCompile Include="Hash.cpp" />
+    <ClCompile Include="RsaCrypto.cpp" />
+    <ClCompile Include="TcpSocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Message.proto" />
+  </ItemGroup>
+</Project>
